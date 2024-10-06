@@ -1,11 +1,3 @@
-/*------------------------------------------------------------------
-Project:	Serano - Creative Portfolio Template
-Version:	1.0
-Last change:	15/08/2022
-Assigned to:	www.ClaPat.com 
-Primary use:	Showcase Portfolio 
--------------------------------------------------------------------*/
-
 @import url("css/content.css");
 @import url("css/showcase.css");
 @import url("css/shortcodes.css");
@@ -3963,6 +3955,43 @@ Primary use:	Showcase Portfolio
     }
 }
 
+.video-wrapper {
+	position: relative;
+}
+
+.control {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btmControl {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.video-btns .btn {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.video-btns .btn i {
+	font-size: 18px;
+}
+
+.video-btns .btn {
+	opacity: 1;
+	visibility: visible;
+}
+
+.video-btns .btn:hover {
+	opacity: 0.4;
+}
 
 /* Form */
 
